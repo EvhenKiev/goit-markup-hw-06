@@ -912,7 +912,7 @@ padding: 96px 0 120px;
 
 .modal-input-agree:checked {
     background-color: var(--link-color-hover);
-    border: 1px solid var(--link-color-hover);
+    border: none;
 }
 
 .modal-input-agree:checked + .icon-agree {
@@ -930,7 +930,7 @@ padding: 96px 0 120px;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
