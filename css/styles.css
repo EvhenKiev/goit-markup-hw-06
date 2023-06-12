@@ -853,6 +853,14 @@ padding: 96px 0 120px;
     color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-form-agree {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--customer-icons-color);
+
+}
+
 .icon-form {
     position: absolute;
     top: 50%;
@@ -913,6 +921,16 @@ padding: 96px 0 120px;
 }
 
 .check-text {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;

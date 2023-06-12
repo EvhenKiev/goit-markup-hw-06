@@ -651,28 +651,33 @@
         </textarea>
       </div>
         <div class="check-cont">
-          <label class="modal-form-agree">
-            <input
+          <input
               class="modal-input-agree"
               id="user-privacy"
               type="checkbox"
-              name="checkbox"
+              name="user-privacy"
+              value="true"
               required
             />
+          <label class="modal-form-agree" for="user-privacy">
+            
+            <span class="check-text"
+            >
             <svg class="icon-agree" width="10" height="8">
               <use href="./images/icons.svg#icon-checkbox"></use>
             </svg>
+            I accept the terms and conditions of the
+            <a class="link-policy" href="">Privacy Policy</a></span
+          >
+        </label>
+            
         </div>
           
           </div>
         </form>
                   
         
-              <span class="check-text"
-                >I accept the terms and conditions of the
-                <a class="link-policy" href="">Privacy Policy</a></span
-              >
-            </label>
+          
             <button class="modal-form-btn" type="submit">Send</button>
          
         
