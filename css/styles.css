@@ -917,7 +917,6 @@ padding: 96px 0 120px;
 
 .modal-input-agree:checked + .icon-agree {
     fill: var(--pf-btn-color);
-    opacity: 1;
 }
 
 .check-text {
