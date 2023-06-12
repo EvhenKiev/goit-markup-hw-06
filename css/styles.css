@@ -910,12 +910,12 @@ padding: 96px 0 120px;
     cursor: pointer;
 }
 
-.modal-input-agree:checked {
+.check-text:checked {
     background-color: var(--link-color-hover);
     border: none;
 }
 
-.modal-input-agree:checked + .icon-agree {
+.check-text:checked + .icon-agree {
     fill: var(--pf-btn-color);
     opacity: 1;
 }
