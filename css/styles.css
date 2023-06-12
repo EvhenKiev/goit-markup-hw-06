@@ -755,9 +755,7 @@ padding: 96px 0 120px;
     margin: 0;
 }
 
-.modal-line {
-    margin-bottom: 8px;
-}
+
 
 .modal-title {
     display: block;
@@ -774,6 +772,7 @@ padding: 96px 0 120px;
 }
 
 .modal-form {
+    margin-bottom: 8px;
     position: relative;
     width: 100%;
     display: flex;
