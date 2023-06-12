@@ -913,9 +913,12 @@ padding: 96px 0 120px;
 .modal-input-agree:checked + .check-text {
     background-color: var(--link-color-hover);
     border: none;
-    fill: var(--pf-btn-color);
+    
 }
 
+.modal-input-agree:checked + .check-text {
+    fill: var(--pf-btn-color);
+}
 
 .check-text {
     width: 16px;
