@@ -440,6 +440,10 @@ width: calc((100% - 48px) / 3);
     color: var(--pf-btn-color);
 }
 
+.footer-soc-container {
+    margin-right: 80px;
+}
+
 .footer-soc-container .desc-item {
     color: var(--background-color-one);
     margin-bottom: 16px;
