@@ -542,6 +542,7 @@ width: calc((100% - 48px) / 3);
 
 .icon-btn-subs {
     fill: currentColor;
+    margin-left: 16px;
 }
 
 .footer-btn-subs:hover,
