@@ -523,6 +523,7 @@ width: calc((100% - 48px) / 3);
 .footer-btn-subs {
     display: flex;
     min-width: 165px;
+    height: 40px;
     padding: 8px 24px;
     align-items: center;
     justify-content: center;
