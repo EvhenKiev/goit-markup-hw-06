@@ -113,7 +113,7 @@ align-items: center;
 color: var(--link-color-hover);
 }
 
-.header-link::after {
+.header-link.current::after {
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -913,13 +913,9 @@ padding: 96px 0 120px;
     cursor: pointer;
 }--*/
 
-.modal-input-agree:checked + .check-text {
+.modal-input-agree:checked + .modal-form-agree > .check-text {
     background-color: var(--link-color-hover);
     border: none;
-    
-}
-
-.modal-input-agree:checked + .check-text {
     fill: var(--pf-btn-color);
 }
 
